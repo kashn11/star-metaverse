@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.13" height="86" viewBox="0 0 79.13 86">
+  <defs>
+    <filter id="tiktok" x="0" y="0" width="79.13" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b14cdf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#tiktok)">
+    <path id="tiktok-2" data-name="tiktok" d="M352.334,11.379l1.1.08V21.68l-1.121.123a14.41,14.41,0,0,1-10.693-3.766V34.375a15.658,15.658,0,1,1-15.7-15.641c.335,0,.676.011,1.014.031l1.116.071v9.589l-1.332-.161c-.083-.01-.165-.02-.246-.032a4.163,4.163,0,0,0-.506-.048,6.193,6.193,0,1,0,0,12.386,6.761,6.761,0,0,0,4.559-1.8,5.853,5.853,0,0,0,1.932-4.3L332.529.033h9.081l.112,1.065a11.505,11.505,0,0,0,10.612,10.28" transform="translate(-292.31 17.97)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

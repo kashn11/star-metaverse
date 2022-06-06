@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.721" height="86" viewBox="0 0 62.721 86">
+  <defs>
+    <filter id="facebook" x="0" y="0" width="62.721" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b14cdf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#facebook)">
+    <path id="facebook-2" data-name="facebook" d="M25.6,28.065l1.384-9.03H18.319V13.176c0-2.469,1.208-4.88,5.091-4.88h3.939V.609A48,48,0,0,0,20.358,0c-7.133,0-11.8,4.322-11.8,12.153v6.883H.628v9.03H8.561V50h9.759V28.065Z" transform="translate(17.37 18)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

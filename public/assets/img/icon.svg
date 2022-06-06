@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310.803" height="301.394" viewBox="0 0 310.803 301.394">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0.015" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.549"/>
+    </linearGradient>
+    <filter id="penta" x="0" y="0" width="310.803" height="301.394" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10.5" result="blur"/>
+      <feFlood flood-color="#56eefb" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#df4cd0"/>
+      <stop offset="0.264" stop-color="#ae52e0"/>
+      <stop offset="1" stop-color="#56eefb"/>
+    </linearGradient>
+    <filter id="star" x="10.699" y="0.842" width="295.91" height="299.386" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#df4cd0"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon" transform="translate(1.18 2.354)">
+    <g data-type="innerShadowGroup">
+      <g id="penta-2" data-name="penta" transform="translate(0 -1.098)" fill="url(#linear-gradient)">
+        <path d="M157.014,0,308.44,118.035l-64.03,181.1H61.665L0,116.488Z" stroke="none"/>
+        <path d="M 157.0144348144531 0 L -3.0517578125e-05 116.4882965087891 L 61.6646728515625 299.1378173828125 L 244.4096984863281 299.1378173828125 L 308.4400024414062 118.034912109375 L 157.0144348144531 0 M 157.0294036865234 -1.25628662109375 L 157.6292114257812 -0.7886962890625 L 309.6229248046875 117.6890563964844 L 309.3828125 118.3682556152344 L 245.1168212890625 300.1378173828125 L 60.94682312011719 300.1378173828125 L -1.180267333984375 116.1187591552734 L -0.5958251953125 115.6851806640625 L 157.0294036865234 -1.25628662109375 Z" stroke="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -1.18, -2.35)" filter="url(#penta)">
+        <g id="penta-3" data-name="penta" transform="translate(1.18 1.26)" fill="#fff">
+          <path d="M157.014,0,308.44,118.035l-64.03,181.1H61.665L0,116.488Z" stroke="none"/>
+          <path d="M 157.0144348144531 0 L -3.0517578125e-05 116.4882965087891 L 61.6646728515625 299.1378173828125 L 244.4096984863281 299.1378173828125 L 308.4400024414062 118.034912109375 L 157.0144348144531 0 M 157.0294036865234 -1.25628662109375 L 157.6292114257812 -0.7886962890625 L 309.6229248046875 117.6890563964844 L 309.3828125 118.3682556152344 L 245.1168212890625 300.1378173828125 L 60.94682312011719 300.1378173828125 L -1.180267333984375 116.1187591552734 L -0.5958251953125 115.6851806640625 L 157.0294036865234 -1.25628662109375 Z" stroke="none"/>
+        </g>
+      </g>
+      <g id="penta-4" data-name="penta" transform="translate(0 -1.098)" fill="none" stroke-linecap="round">
+        <path d="M157.014,0,308.44,118.035l-64.03,181.1H61.665L0,116.488Z" stroke="none"/>
+        <path d="M 157.0144348144531 0 L -3.0517578125e-05 116.4882965087891 L 61.6646728515625 299.1378173828125 L 244.4096984863281 299.1378173828125 L 308.4400024414062 118.034912109375 L 157.0144348144531 0 M 157.0294036865234 -1.25628662109375 L 157.6292114257812 -0.7886962890625 L 309.6229248046875 117.6890563964844 L 309.3828125 118.3682556152344 L 245.1168212890625 300.1378173828125 L 60.94682312011719 300.1378173828125 L -1.180267333984375 116.1187591552734 L -0.5958251953125 115.6851806640625 L 157.0294036865234 -1.25628662109375 Z" stroke="none" fill="rgba(86,238,251,0.53)"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -1.18, -2.35)" filter="url(#star)">
+      <path id="star-2" data-name="star" d="M276.538,119.061,187.7,105.306l-39.741-85.72-39.741,85.75L19.371,119.091l64.292,66.741-15.177,94.3,79.469-44.574,79.469,44.469-15.177-94.3ZM226.847,279.486l-78.893-59.871L69.062,279.486l29.1-98.428L20.3,119.69l96.965-.928,30.691-97.889,30.762,97.844,96.894.928-77.867,61.368Z" transform="translate(10.7 0.84)" stroke="rgba(223,76,208,0.34)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

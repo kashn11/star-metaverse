@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107.088" height="86" viewBox="0 0 107.088 86">
+  <defs>
+    <filter id="youtube" x="0" y="0" width="107.088" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b14cdf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#youtube)">
+    <path id="youtube-2" data-name="youtube" d="M169.7,16.992s-.7-4.9-2.827-7.057a10.166,10.166,0,0,0-7.124-3.011c-9.948-.719-24.87-.719-24.87-.719h-.031s-14.922,0-24.87.719a10.169,10.169,0,0,0-7.124,3.011c-2.131,2.157-2.825,7.057-2.825,7.057a107.556,107.556,0,0,0-.71,11.5V33.89a107.567,107.567,0,0,0,.71,11.506s.693,4.9,2.825,7.057c2.705,2.83,6.258,2.741,7.839,3.038,5.687.545,24.17.714,24.17.714s14.937-.022,24.885-.741a10.174,10.174,0,0,0,7.124-3.011c2.131-2.159,2.827-7.057,2.827-7.057a107.817,107.817,0,0,0,.709-11.506V28.5a107.807,107.807,0,0,0-.709-11.5M127.527,40.426V20.452l19.208,10.022Z" transform="translate(-81.33 11.79)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

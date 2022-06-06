@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92.239" height="86" viewBox="0 0 92.239 86">
+  <defs>
+    <filter id="reddit" x="0" y="0" width="92.239" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b14cdf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#reddit)">
+    <path id="reddit-2" data-name="reddit" d="M360.794,141.533a6.188,6.188,0,0,0-4.04,1.712,30.015,30.015,0,0,0-16.257-5.2l2.739-13.172,9.036,1.9a4.23,4.23,0,1,0,.556-2.582l-10.348-2.068a1.308,1.308,0,0,0-1.564,1v.022L337.8,137.8a30.249,30.249,0,0,0-16.467,5.2,6.163,6.163,0,1,0-8.439,8.983,5.949,5.949,0,0,0,1.659,1.113,13.617,13.617,0,0,0,0,1.858c0,9.456,11.019,17.149,24.611,17.149s24.61-7.683,24.61-17.149a13.627,13.627,0,0,0,0-1.858,6.092,6.092,0,0,0-2.98-11.556m-35.83,10.17a4.23,4.23,0,1,1,4.23,4.23,4.237,4.237,0,0,1-4.23-4.23m24.528,11.776v-.168a18.353,18.353,0,0,1-20.865,0,1.141,1.141,0,0,1,1.605-1.605,16.141,16.141,0,0,0,17.61.083,1.181,1.181,0,0,1,1.649,1.69m-.578-7.242h-.21l.032-.158a2.991,2.991,0,1,1,.178.158" transform="translate(-292.95 -104.1)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

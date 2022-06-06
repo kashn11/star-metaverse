@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.984" height="86" viewBox="0 0 98.984 86">
+  <defs>
+    <filter id="medium" x="0" y="0" width="98.984" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b14cdf"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#medium)">
+    <path id="medium-2" data-name="medium" d="M7.479,244.253a2.442,2.442,0,0,0-.794-2.058L.806,235.11v-1.057H19.065l14.113,30.952,12.409-30.952H62.994v1.057l-5.028,4.82a1.475,1.475,0,0,0-.559,1.413v35.422a1.473,1.473,0,0,0,.559,1.411L62.876,283v1.057h-24.7V283l5.088-4.94c.5-.5.5-.646.5-1.409V248.016L29.62,283.939H27.709L11.242,248.016v24.076a3.323,3.323,0,0,0,.91,2.76l6.617,8.026v1.061H.01v-1.061l6.617-8.026a3.2,3.2,0,0,0,.852-2.76V244.253" transform="translate(17.99 -216.05)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
