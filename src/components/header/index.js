@@ -1,5 +1,18 @@
 import React from "react";
+import $ from "jquery";
 export default function Header() {
+	$(window).scroll(function () {
+
+		// Write code here
+		var scroll = $(window).scrollTop();
+		if (scroll >= 40) {
+			$(".header-wrap").addClass("hdr-scroll");
+		} else {
+			$(".header-wrap").removeClass("hdr-scroll");
+		}
+
+
+	});
 	return (
 		<React.Fragment>    <div className="header-wrap" data-aos="fade-down" data-aos-duration={2000}>
 			<div className="container">

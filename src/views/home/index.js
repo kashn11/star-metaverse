@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
 export default function Home() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<React.Fragment>
 			<div>
@@ -8,7 +13,7 @@ export default function Home() {
 				</div>{/*/.hero-image*/}
 				<div className="site-banner" style={{ backgroundImage: 'url("assets/img/landing-bg.png")' }}>
 					<div className="meta-girl mb-hide">
-						<img src="assets/img/meta-girl.png" alt="home-img" data-aos="fade-right" data-aos-offset={1000} data-aos-duration={1500} data-aos-easing="ease-in-sine" />
+						<img src="assets/img/meta-girl.png" alt="home-img" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset={-500} data-aos-duration={1500} />
 					</div>
 					<div className="meta-boy mb-hide">
 						<img src="assets/img/meta-boy.png" alt="home-img" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-offset={-500} data-aos-duration={1500} />
@@ -17,7 +22,7 @@ export default function Home() {
 						<img src="assets/img/minimap.png" alt="home-img" data-aos="zoom-in" data-aos-duration={1500} />
 					</div>
 					<div className="banner-heading">
-						<h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration={1500}>Star Metaverse <small className="text-border frosted-gray" data-aos="fade-right" data-aos-offset={300} data-aos-easing="ease-in-sine" data-aos-duration={1000}>Join WhiteList &gt;</small></h1>
+						<h1 data-aos="fade-down" data-aos-offset={300} data-aos-easing="ease-in-sine" data-aos-duration={1000}>Star Metaverse <small className="text-border frosted-gray" data-aos="fade-right" data-aos-offset={300} data-aos-easing="ease-in-sine" data-aos-duration={1000}>Join WhiteList &gt;</small></h1>
 					</div>
 					{/*/.banner-heading*/}
 					<div className="brand-info">
@@ -88,7 +93,7 @@ export default function Home() {
 										<div className="col-title">
 											<h4>
 												REVENUE THROUGH
-												MULTIPLE INCOME STREAM
+												MULTIPLE INCOME STREAMS
 											</h4>
 											<p>
 												Star Metaverse will be a land of multiple
@@ -441,11 +446,11 @@ export default function Home() {
 							<div className="container">
 								<div className="zone-inner-pod frosted-gray" data-aos="fade-right" data-aos-offset={300} data-aos-duration={1500} data-aos-easing="ease-in-sine">
 									<div className="pod-content">
-										<h4 className="txt-gradient">Star Hub Concourse</h4>
+										<h4 className="txt-gradient">STAR DOME CONCOURSE</h4>
 										<p>
 											All Starlites will enter through the
-											STAR HUB Concourse. This will be the
-											key meeting area which contains
+											STAR Dome Concourse. This will be
+											the key meeting area which contains
 											help desk, event board, navigation
 											area as well major advertisement
 											Totems. Special presence by key
@@ -478,11 +483,16 @@ export default function Home() {
 							<div className="container">
 								<div className="zone-inner-pod frosted-gray" data-aos="fade-right" data-aos-offset={300} data-aos-duration={1500} data-aos-easing="ease-in-sine">
 									<div className="pod-content">
-										<h4 className="txt-gradient">Stadium</h4>
+										<h4 className="txt-gradient">ENTERTAINMENT COMPLEX</h4>
 										<p>
-											The Stadium will host events, concerts and more. Weekly interactive learning sessions by
-											people from the Crypto world will be hosted, and promoted
-											within Star Metaverse &amp; attendance will be encouraged by rewarding of $STAR.
+											The Stadium will host events,
+											concerts and more. Weekly
+											learning sessions by
+											interactive
+											people from the Crypto world will be
+											hosted, and promoted within Star
+											Metaverse & attendance will be
+											encouraged by rewarding of $STAR.
 										</p>
 									</div>
 								</div>
@@ -519,7 +529,7 @@ export default function Home() {
 							<div className="container">
 								<div className="zone-inner-pod frosted-gray margin-left-auto" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-offset={300} data-aos-duration={1500}>
 									<div className="pod-content">
-										<h4 className="txt-gradient">Starline Bar</h4>
+										<h4 className="txt-gradient">Starlite Bar</h4>
 										<p>
 											Luxury bar to connect and meet
 											other Starlites
