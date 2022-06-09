@@ -7721,6 +7721,7 @@ body {
 
 .hdr-scroll {
   background-color: #000000;
+  z-index: 99999;
 }
 
 /**** .site-banner*****/
