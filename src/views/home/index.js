@@ -7,11 +7,19 @@ export default function Home() {
 	}, []);
 	return (
 		<React.Fragment>
+
+
+			{/* background-image: url(/public/assets/img/roadmap-bg.png); */}
+
+
+
+
 			<div>
 				<div className="hero-image">
 					<img src="assets/img/hero-bg.png" alt="home-img" />
 				</div>{/*/.hero-image*/}
 				<div className="site-banner" style={{ backgroundImage: 'url("assets/img/landing-bg.png")' }}>
+
 					<div className="meta-girl mb-hide">
 						<img src="assets/img/meta-girl.png" alt="home-img" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset={-500} data-aos-duration={1500} />
 					</div>
@@ -313,7 +321,7 @@ export default function Home() {
 								</div>{/* /.col-md-2 */}
 								<div className="col-md-5">
 									<div className="col-outer">
-										<div className="col-inner">
+										<div className="col-inner vertical-center">
 											<div className="roadmap_col roadmap_right-col col_right-custom-margin frosted-gray-blue" data-aos="fade-right" data-aos-easing="linear" data-aos-duration={1500}>
 												<ul>
 													<li>Initial talks with high profile investors</li>

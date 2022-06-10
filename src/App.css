@@ -7721,7 +7721,7 @@ body {
 
 .hdr-scroll {
   background-color: #000000;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 /**** .site-banner*****/
@@ -7745,8 +7745,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: calc(100vw + 100px);
-  backdrop-filter: blur(7px);
+  width: 100%;
 }
 .site-banner .meta-girl {
   position: absolute;
@@ -7781,6 +7780,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 }
 .site-banner .mini-map img {
   width: 100%;
@@ -7971,11 +7971,14 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  align-content: space-around;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .road_map .map_inner .col-outer .col-inner .roadmap_col {
   padding: 3.5rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.road_map .map_inner .col-outer .vertical-center {
+  justify-content: space-evenly;
 }
 .road_map .roadmap_middle-col:not(:last-child) {
   margin-bottom: 4rem;
@@ -8017,13 +8020,13 @@ body {
 }
 .core_team-inner .core_team-card .member-image {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
 .core_team-inner .core_team-card .member-image img {
-  width: 50%;
+  width: 58%;
 }
 .core_team-inner .core_team-card img {
   width: 100%;
@@ -8100,7 +8103,7 @@ body {
   align-items: center;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 1.6rem;
 }
 .footer_nav-wrap .footer_nav ul a {
   text-decoration: none;
@@ -8193,6 +8196,13 @@ body {
   margin: 0;
   text-transform: uppercase;
   font-size: calc(0.75rem + 0.25vw);
+}
+
+.star-properties {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
 }
 
 .star-properties-inner .properties-cols {
